@@ -1,14 +1,14 @@
 # saurabhagnihotri
-Resume of Saurabh Agnihotri
+saurabhagnihotri.com is a resume of Saurabh Agnihotri. This project is a project to learn new and latest technologies.
 
 # Developed using
 Angular 6.0, Angular Material, Angular FlexLayout, Angular PWAs
 
-#Domain
+# Domain
 Google Domain
 
-#Host
+# Host
 Firebase Hosting
 
-#Analytics
+# Analytics
 Google Analytics
