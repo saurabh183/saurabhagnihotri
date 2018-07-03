@@ -1,0 +1,38 @@
+<!-- Display header in Laptop/Desktop -->
+<mat-toolbar color="primary">
+  <span class="centre">
+    <a class="name">Saurabh Agnihotri</a>
+  </span>
+  <span class="centre hide-small">
+    <a mat-button routerLink="/about" class="mat-elevation-z10">ABOUT</a>
+    <a mat-button routerLink="/projects" class="mat-elevation-z10">PROJECTS</a>
+    <a mat-button routerLink="/digitalyear" class="mat-elevation-z10">DIGITAL YEAR</a>
+  </span>
+  <span>
+      <div style="text-align:center">
+        <a mat-icon-button href="https://www.linkedin.com/in/saurabh-agnihotri-09033613/"  target="_blank">
+          <i class="fab fa-linkedin-in fa-lg"></i>
+        </a>
+        <a mat-icon-button href="https://twitter.com/saurabh1839"  target="_blank">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+       <a mat-icon-button href="https://github.com/saurabh183"  target="_blank">
+        <i class="fab fa-github fa-lg"></i>
+        
+      </a>
+      <a mat-icon-button (click)="openSnackBar()">
+          <i class="fas fa-info"></i>
+      </a>
+      </div>
+    </span>
+</mat-toolbar>
+
+<!-- Display header in Laptop/Desktop -->
+<mat-toolbar color="primary" class="mat-elevation-z5 show-small ">
+  <span class="centre"></span>
+  <span class="centre show-small">
+    <a mat-button routerLink="/about"      class="mat-elevation-z10">ABOUT</a>
+    <a mat-button routerLink="/projects"   class="mat-elevation-z10">PROJECTS</a>
+    <a mat-button routerLink="/digitalyear" class="mat-elevation-z10">DIGITAL YEAR</a>
+  </span>
+</mat-toolbar>
